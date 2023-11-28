@@ -1,0 +1,16 @@
+C:\Users\karoline\source\repos\app8\app8\bin\Debug\netstandard2.0\app8.deps.json
+C:\Users\karoline\source\repos\app8\app8\bin\Debug\netstandard2.0\app8.dll
+C:\Users\karoline\source\repos\app8\app8\bin\Debug\netstandard2.0\ref\app8.dll
+C:\Users\karoline\source\repos\app8\app8\bin\Debug\netstandard2.0\app8.pdb
+C:\Users\karoline\source\repos\app8\app8\obj\Debug\netstandard2.0\app8.csproj.AssemblyReference.cache
+C:\Users\karoline\source\repos\app8\app8\obj\Debug\netstandard2.0\app8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karoline\source\repos\app8\app8\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\karoline\source\repos\app8\app8\obj\Debug\netstandard2.0\vistas\agregar.xaml.g.cs
+C:\Users\karoline\source\repos\app8\app8\obj\Debug\netstandard2.0\vistas\principal.xaml.g.cs
+C:\Users\karoline\source\repos\app8\app8\obj\Debug\netstandard2.0\app8.AssemblyInfoInputs.cache
+C:\Users\karoline\source\repos\app8\app8\obj\Debug\netstandard2.0\app8.AssemblyInfo.cs
+C:\Users\karoline\source\repos\app8\app8\obj\Debug\netstandard2.0\app8.csproj.CoreCompileInputs.cache
+C:\Users\karoline\source\repos\app8\app8\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\karoline\source\repos\app8\app8\obj\Debug\netstandard2.0\app8.dll
+C:\Users\karoline\source\repos\app8\app8\obj\Debug\netstandard2.0\refint\app8.dll
+C:\Users\karoline\source\repos\app8\app8\obj\Debug\netstandard2.0\app8.pdb

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Realizar Curriculum "
+             x:Class="app8.vistas.principal">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem  Text="ir" Clicked="ToolbarItem_Clicked"/>
+    </ContentPage.ToolbarItems>
+             
+    <ContentPage.Content>
+        <ListView x:Name="LISTADO"  HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="15,0">
+                            
+                            <Label Text="CURRICULUM VITAE :" FontSize="Medium" TextColor="Red"></Label>
+
+                            <Label Text="NOMBRE:" FontSize="Medium" TextColor="Blue"></Label>
+                            <Label Text="{Binding name}" FontSize="Medium" TextColor="Black"></Label>
+
+                            <Label Text="APELLIDOS:" FontSize="Medium" TextColor="Blue"></Label>
+                            <Label Text="{Binding apellido}" FontSize="Medium" TextColor="Black"></Label>
+
+                            <Label Text="PERFIL:" FontSize="Medium" TextColor="Blue"></Label>
+                            <Label Text="{Binding perfil}" FontSize="Medium" TextColor="black"></Label>
+
+                            <Label Text="CONTACTO:" FontSize="Medium" TextColor="Blue"></Label>
+                            <Label Text="{Binding contacto}" FontSize="Medium" TextColor="Black"></Label>
+
+                            <Label Text="IDIOMAS:" FontSize="Medium" TextColor="Blue"></Label>
+                            <Label Text="{Binding idiomas}" FontSize="Medium" TextColor="Black"></Label>
+
+                            <Label Text="HABILIDADES:" FontSize="Medium" TextColor="Blue"></Label>
+                            <Label Text="{Binding habilidades}" FontSize="Medium" TextColor="Black"></Label>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="registar Datos"
+             x:Class="app8.vistas.agregar">
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem  Text="generar cv" Clicked="ToolbarItem_Clicked"/>
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Label Text="Nombre" FontSize="Medium"  TextColor="blue"/>
+            <Editor x:Name="nombreEditor" Placeholder="Ingrese su nombre" HeightRequest="50" />
+
+            <Label Text="Apellido" FontSize="Medium" TextColor="blue" />
+            <Editor x:Name="apellidoEditor" Placeholder="Ingrese sus apellidos" HeightRequest="50" />
+
+            <Label Text="Perfil" FontSize="Medium"  TextColor="blue"/>
+            <Editor x:Name="perfilEditor" Placeholder="Ingrese su perfil" HeightRequest="90" />
+
+            <Label Text="Contacto" FontSize="Medium"  TextColor="blue"/>
+            <Entry x:Name="contactoEntry" Placeholder="Ingrese su información de contacto" />
+
+            <Label Text="Idiomas" FontSize="Medium"  TextColor="blue"/>
+            <Editor x:Name="idiomasEditor" Placeholder="Ingrese sus idiomas" HeightRequest="50" />
+
+            <Label Text="Habilidades" FontSize="Title" TextColor="blue" />
+            <Editor x:Name="habilidadesEditor" Placeholder="Ingrese sus habilidades" HeightRequest="50" />
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
